@@ -55,6 +55,7 @@ sum_diag(2, S) :- S = #sum{ V : magic(L,N-L+1,V), lato(L) }.     % Anti-diagonal
 :- lato(Y), sum_rows(Y, V), magicval(T), V != T. 
 % Fail if any diagonal sum is not T
 :- diag(D), sum_diag(D, V), magicval(T), V != T.
+```
 
 ### 🚀 Execution Instructions
 
