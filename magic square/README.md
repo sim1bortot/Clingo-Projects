@@ -57,7 +57,7 @@ sum_diag(2, S) :- S = #sum{ V : magic(L,N-L+1,V), lato(L) }.     % Anti-diagonal
 :- diag(D), sum_diag(D, V), magicval(T), V != T.
 ```
 
-### 🚀 Execution Instructions
+## 🚀 Execution Instructions
 
 To run the code, you must have the **clingo** solver installed.
 
