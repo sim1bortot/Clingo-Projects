@@ -1,4 +1,4 @@
-#const n = 3.
+#const n = 5.
 
 
 lato(1..n). valore(1..n*n).
